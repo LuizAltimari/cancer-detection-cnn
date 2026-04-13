@@ -52,14 +52,17 @@ Windows:
 Linux/Mac:
 
 source dl-env/bin/activate
+
 3. Atualizar ferramentas
 python -m pip install --upgrade pip setuptools wheel
-4. Instalar dependências principais
+
+5. Instalar dependências principais
 pip install numpy==1.24.3
 pip install tensorflow==2.13.1
 pip install imutils==0.5.4
-5. Instalar demais dependências
+6. Instalar demais dependências
 pip install -r requirements.txt
+
 # Treinamento
 hist = modelo_cnn.fit(aug.flow(x_treino, y_treino, batch_size = batch_size), 
                                 validation_data = (x_teste, y_teste), 
