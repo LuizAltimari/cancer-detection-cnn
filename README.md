@@ -32,7 +32,7 @@ Dense (500 neurônios) + ReLU
 Camada de saída:
 Dense (1 neurônio)
 Ativação: Sigmoid
-⚙️ Tecnologias Utilizadas
+#Tecnologias Utilizadas
 Python 3.11
 TensorFlow / Keras
 NumPy
